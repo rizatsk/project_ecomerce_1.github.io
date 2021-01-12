@@ -1,0 +1,46 @@
+.top h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.top p{
+    text-align: center;
+}
+h3 span{
+    color: red;
+}
+
+h2 span{
+    color: red;
+}
+
+.center{
+    height: 600px;
+}
+
+.toko{
+    padding-top: none;
+    padding-left: 400px;
+    padding-bottom: 30px;
+}
+
+.btn{
+    padding-left: 90px;
+}
+@media only screen and (min-width: 310px) and (max-width: 500px){
+    .top{
+        padding-top: 30px;
+        font-size: 11px;
+    }
+    .top p{
+         text-align: left;
+    }
+    .toko{
+        padding-left: 0px;
+    }
+    .toko p{
+        font-size: 11px;
+    }
+    .btn{
+        padding-left: 0px;
+    }
+}

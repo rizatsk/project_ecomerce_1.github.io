@@ -1,0 +1,102 @@
+.intisari{
+    padding-top: 250px;
+    padding-bottom: 100px;
+    background-image: url(../image/intisari.png);
+    background-size: cover;
+  }
+.team{
+    padding-top: 30px;
+    padding-bottom: 400px;
+}  
+.photo-team{
+    float: left;
+}  
+.photo-team img{
+    width: 350px;
+    height: 350px;
+    padding-right: 150px;
+}
+.deskripsi-team{
+    float: left;
+    padding-top: 100px;
+}
+@media only screen and (min-width: 411px) and (max-width: 415px){
+    .contains{
+        padding-bottom: 10px;
+    }
+   .intisari{
+       background-image: url(../image/intisari2.png);
+       background-size: auto;
+       padding-top: 180px;
+       padding-bottom: 0px;
+   }
+   .photo-team img{
+    width: 125px;
+    height: 125px;
+    padding-right: 20px; 
+   }
+   .deskripsi-team{
+       font-size: 10px;
+       padding-top: 10px;
+   }
+   .team{
+       padding-bottom: 130px;
+   }
+   .foot{
+       padding-top: 50px;
+   }
+}
+@media only screen and (min-width: 319px) and (max-width: 320px){
+    .contains{
+        padding-bottom: 10px;
+    }
+   .intisari{
+       background-image: url(../image/intisari2.png);
+       background-size: auto;
+       padding-top: 180px;
+       padding-bottom: 0px;
+   }
+   .photo-team img{
+    width: 125px;
+    height: 125px;
+    padding-left: 80px;
+    padding-right: 20px; 
+   }
+   .deskripsi-team{
+       font-size: 10px;
+       padding-top: 10px;
+   }
+   .team{
+       padding-bottom: 130px;
+   }
+   .foot{
+       padding-top: 300px;
+   }
+}
+@media only screen and (min-width: 360px) and (max-width: 376px){
+    .contains{
+        padding-bottom: 10px;
+    }
+   .intisari{
+       background-image: url(../image/intisari2.png);
+       background-size: auto;
+       padding-top: 180px;
+       padding-bottom: 0px;
+   }
+   .photo-team img{
+    width: 150px;
+    height: 150px;
+    padding-left: 100px;
+    padding-right: 20px; 
+   }
+   .deskripsi-team{
+       font-size: 10px;
+       padding-top: 10px;
+   }
+   .team{
+       padding-bottom: 130px;
+   }
+   .foot{
+       padding-top: 400px;
+   }
+}
